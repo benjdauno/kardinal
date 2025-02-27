@@ -131,7 +131,7 @@ export const VotingProvider = ({ children }: PropsWithChildren) => {
   };
 
   const getVoteCount = (feature: string) => {
-    return features.find((f) => f.name === feature)?.upvotes || 0;
+    return 0;
   };
 
   const getVoteStatus = (feature: string) => {
